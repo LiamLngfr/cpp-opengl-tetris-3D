@@ -1,11 +1,11 @@
-#OpenGL Tetris
+# OpenGL Tetris
 
-##Description
+## Description
 
 Ce projet est une implémentation simplifiée de Tetris en 3D utilisant C++, OpenGL, GLFW, GLEW et GLM.
 Il gère l’affichage de cubes, les tetrominos, la gravité, les collisions et la suppression de lignes complètes.
 
-Contrôles:
+### Contrôles:
 
 A : gauche
 
@@ -27,7 +27,7 @@ Espace : déplacement en haut de la caméra
 
 Shift-Gauche : Déplacement en bas de la caméra 
 
-###Fonctionnalités
+### Fonctionnalités
 Apparition aléatoire des tetrominos (I, O, T, L, J, S, Z).
 
 Détection et suppression automatique des lignes pleines.
@@ -38,7 +38,7 @@ Contours du terrain (un “U” en cubes).
 
 Caméra libre avec contrôles de navigation.
 
-##Installation
+## Installation
 
 Cloner ou télécharger le projet.
 
@@ -50,7 +50,7 @@ GLEW
 
 GLM
 
-###IMPORTANT – Chemin des shaders
+### IMPORTANT – Chemin des shaders
 
 Dans main.cpp, mettre à jour la variable path selon l’emplacement des shaders sur votre machine :
 
@@ -58,7 +58,7 @@ string path = "../..";
 
 Compiler avec un compilateur compatible C++11 ou supérieur.
 
-##Lancement
+## Lancement
 
 Exécuter le binaire compilé.
 Une fenêtre OpenGL s’ouvre avec le jeu Tetris.
@@ -66,7 +66,7 @@ Utiliser les touches A, D, S, W pour contrôler la pièce.
 ESC pour quitter.
 
 
-##Dépendances
+## Dépendances
 
 OpenGL 3.3 Core
 
