@@ -1,0 +1,10 @@
+#version 330 core
+
+out vec4 FragColor;
+
+uniform vec3 cubeColor; // couleur du cube depuis le CPU
+
+void main()
+{
+    FragColor = vec4(cubeColor, 1.0); // couleur avec alpha = 1.0
+}
