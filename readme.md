@@ -60,6 +60,7 @@ string path = "../..";
 
 ##Lancement
 
+Compiler grâce au CMakeList.
 Exécuter le binaire compilé.
 Une fenêtre OpenGL s’ouvre avec le jeu Tetris.
 Utiliser les touches A, D, S, W pour contrôler la pièce.
